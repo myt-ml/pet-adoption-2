@@ -156,6 +156,11 @@ body {
   margin: 0;
   line-height: 1;
 }
+.media[dir="rtl"] img {
+  float: right;
+  margin-right: 0;
+  margin-left: 16px;
+}
 
 .pet-filter {
   color: #9F9F9F;
